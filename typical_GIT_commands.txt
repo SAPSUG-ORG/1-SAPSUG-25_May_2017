@@ -1,0 +1,18 @@
+git clone https://github.rackspace.com/Microsoft-Hyper-V/Support-Scripts.git
+git status
+git add --all
+git commit -m "Initial commit"
+git push origin master
+
+git pull origin master
+
+
+
+git branch
+git branch NewWork
+git checkout NewWork
+git checkout -b pasta [new creation at same time]
+git merge NewWork
+git diff branchname..branchname
+
+git stash
