@@ -23,8 +23,9 @@ Send-MailMessage @param
 #reusable parameters
 #Write a message with the colors in $Colors
 $Colors = @{ForegroundColor = "black"; BackgroundColor = "white"}
-Write-Host "This is a test." @Colors
-Write-Host @Colors "This is another test."
+Write-Host "Hello World from Splatting !!" @Colors
+Write-Host @Colors "You can use your splatting argument anywhere on your cmdlet"
+Write-Host "In addition, if you change one of your hash values, you only update it once" @Colors
 
 #Organize your wmi queries together
 #https://blogs.technet.microsoft.com/heyscriptingguy/2010/10/18/use-splatting-to-simplify-your-powershell-scripts/
