@@ -40,3 +40,19 @@ Get-WmiObject @Partition
 Get-WmiObject @ComputerSystem 
 Get-WmiObject @OperatingSystem 
 
+
+
+
+#Bonus
+$params1 = @{
+FilePath = "C:\windows\notepad.exe" 
+WorkingDirectory = "C:\users\alex"
+}
+
+$params2 = @{
+ArgumentList = "C:\rs-pkgs\myfile.txt" 
+}
+
+Start-Process @params1
+
+Start-Process @params1 @params2
