@@ -16,7 +16,7 @@ Link to Slide Presentations: https://1drv.ms/f/s!Aloz3wjU1X5-sDD2anVtcH6i7djv
 
 * "GIT" comfortable with GIT!
 * Try out all the editors:
- * ISE Steroids
- * PowerShell ISE
- * PowerShell Studio
- * Visual Studio Code
+  * ISE Steroids
+  * PowerShell ISE
+  * PowerShell Studio
+  * Visual Studio Code
